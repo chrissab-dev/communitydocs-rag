@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "communitydocs-rag"
+version = "0.1.0"
+description = "A review-grounded question-answering, RAG-based system A review-grounded question-answering system that explains what people have said about a café, restaurant or bar, with citations."
+authors = [{name = "chrissab-dev"}]
+requires-python = ">=3.12.4"
+readme = "README.md"
+license = {text = "CC-BY-NC-4.0"}
+
+[project.dependencies]
+# Add dependencies as you install them
+# Example: fastapi>=0.100.0
+ollama>=0.6.1
+tesseract>=0.1.3
+
+[project.optional-dependencies]
+dev = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.setuptools]
+packages = ["communitydocs_rag"]
+
+[tool.setuptools.package-dir]
+"" = "src"
