@@ -18,10 +18,10 @@ Neurodivergent people and others with sensory sensitivities often struggle to ch
 
 ### Feature 1: Ask Reviews (ReviewRAG)
 For each venue:
-- **Natural-language Q&A** — Ask anything about the café
-- **Grounded answers** — Every claim backed by actual review text
-- **Citations** — See the exact review excerpts supporting each answer
-- **Honest uncertainty** — Explicit handling of insufficient evidence
+- **Natural-language Q&A** - Ask anything about the café
+- **Grounded answers** - Every claim backed by actual review text
+- **Citations** - See the exact review excerpts supporting each answer
+- **Honest uncertainty** - Explicit handling of insufficient evidence
 
 ### Feature 2: Sound Profile (SoundSense)
 *Companion project TBD in `soundsense-nlp`*
@@ -36,9 +36,9 @@ For each venue:
 ## Technical Approach
 
 ### CommunityDocs RAG
-- **Embedding-based retrieval** — Find relevant review chunks using vector search
-- **LLM answer generation** — Generate natural-language answers with strict citation enforcement
-- **No hallucinations** — System refuses to make claims without evidence
+- **Embedding-based retrieval** - Find relevant review chunks using vector search
+- **LLM answer generation** - Generate natural-language answers with strict citation enforcement
+- **No hallucinations** - System refuses to make claims without evidence
 
 ### Data Sources
 - Public review datasets (e.g., Yelp Open Dataset)
@@ -69,7 +69,7 @@ For each venue:
 
 ## Installation & Setup
 
-*Coming soon — project under development*
+*Coming soon - project under development*
 
 ```bash
 # Clone the repo
@@ -120,7 +120,7 @@ A weakly supervised NLP system that infers acoustic accessibility signals from r
 
 ## License
 
-CC-BY-NC-4.0 — This work is licensed for non-commercial use.
+CC-BY-NC-4.0 - This work is licensed for non-commercial use.
 
 ## Authors
 
@@ -128,4 +128,4 @@ CC-BY-NC-4.0 — This work is licensed for non-commercial use.
 
 ---
 
-**Status:** Early development / MVP phase
+**Status:** Early development/MVP phase
