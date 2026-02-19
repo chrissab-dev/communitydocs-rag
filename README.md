@@ -1,4 +1,4 @@
-# CommunityDocs RAG
+# CommunityDocs RAG - **work in progress**
 
 A review-grounded question-answering system that explains what people have said about a café, with citations.
 
