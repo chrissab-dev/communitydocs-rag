@@ -62,3 +62,7 @@ logs/
 *.db
 *.sqlite
 *.sqlite3
+
+# Raw dataset files (large, not tracked)
+data/raw/*
+!data/raw/.gitkeep
